@@ -1,0 +1,6 @@
+@use 'base/variables' as v; //cre un objeto del archivo variables, reenombro el ogbjeto y se llama v
+
+h1{
+    color: v.$rojo; //accedo ala propiedad
+    text-transform: uppercase;
+}

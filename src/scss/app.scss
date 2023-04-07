@@ -1,0 +1,11 @@
+//forma anterior
+// forma anterior, una vey importado en el app.scss lo hace disponible para todos los archivos
+//  @import 'base/variables';
+//  @import 'contenido/contenido';
+
+
+//forma nueva // siempre tiene un index // solo disponible donde tu quieras
+@use 'base'; // forward apunta al archivo y use lo compila
+@use 'layout';
+//  @use 'base/variables' as v; //cre un objeto del archivo variables, reenombro el ogbjeto y se llama v
+
